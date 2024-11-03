@@ -65,7 +65,7 @@
                         <td>{wago.location}</td>
                         <td>{wago.salesNumber}</td>
                         <td>{wago.wagonType}</td>
-                        <td>{wago.length} mm</td>
+                        <td>{wago.length} cm</td>
                         <td>{#each ['playground', 'pet', 'catering','video','luggage','smoking','disabled'] as service}{#if wago[service]}{service}
                             &nbsp;{/if}{/each}</td>
                         <td>{wago.vehicleNumber || ""}</td>
